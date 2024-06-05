@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <meta property="og:image" content="./src/1.jpg" style="width: 400px; height: 210px;"/>
-    <meta property="og:title" content="오 김주니 결혼함 ㅋ" />
-    <meta property="og:description" content="성균 & 주은 결혼식을 한데요 얼레리꼴레리" />
+    <meta property="og:title" content="주은이결혼해요" />
+    <meta property="og:description" content="성균 & 주은 결혼식 합니다" />
 
     <script src="https://kit.fontawesome.com/334c3c2104.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/earlyaccess/kopubbatang.css">
@@ -16,7 +16,30 @@
     <title>Sunggyun & Jooeun</title>
 </head>
 <body>
+    <audio autoplay loop="loop">
+        <source src="/src/music/Photograph-codyfry.mp3" type="audio/mp3">
+    </audio>
 
+    <script>
+        function bgmStart(link){
+                if ( window.HTMLAudioElement ) {			
+                    audio = $('audio');		
+                    audio[0].src = link;			
+                    audio[0].load();
+                    audio[0].play();
+                    //alert("audio");
+                }else{							
+                    //ie_player.setBGM(link);
+                    //alert(ie_player.src);
+                    setTimeout("ie_player.bgmPlay()", 100);	
+                    //alert("ifrm");
+                }
+		    }
+
+    </script>
+       
+    
+    
     <!-- <div class="navbar">
         <div class="snap-gallery">
             <a href="#gallery">갤러리</a>
@@ -43,28 +66,27 @@
 
     <div class="body">
         <div class="body-top">
-            <img src="src/1.jpg">
-            <div class="date">
-                <!-- <h1>2022. 7. 9<br>토요일 오후6시 대보름</h1> -->
-            </div>
+            <img src="src/11.jpg">
+            
         </div>
         <div class="body-middle">
             <div class="main-word">
-                 <h1>김주니결혼함ㅋ</h1>
+                 <h1>초대합니다</h1>
                  <p>
-                    니가 벌써 결혼하냐<br>
-                    허거덩<br>
-                    올 ㅋㅋ ㅋ얼레리꼴레리<br> 
-                    ㅋㅋㅋㅋㅋㅋㅋ<br>
-                    결혼해도 너는 존못!
-                 </p> 
+                    눈물콧물 이과생과 <br>
+                    우짤래미 문과생이 <br>
+                    만났습니다<br> 
+                    그러합니다<br>
+                    결혼합니다!
+                 </p>
             </div>
+            
         </div>
         <div class="body-footer">
             <div class="row2">
-                <span class="parents">시아버지</span>
+                <span class="parents">안경훈</span>
                 <span class="bulit">・</span>
-                <span class="parents">시어머니</span>
+                <span class="parents">정명희</span>
                 <p>의 장남</p>
                 <span class="groom">성균</span>
             </div>
@@ -75,42 +97,42 @@
                 <p>의 장녀</p>
                 <span class="groom">주은</span>
             </div>
-
+        </div>
+        <div class="date">
+            <h1>2024. 12. 28<br>토요일 오전11시 울림교회</h1>
         </div>
 
-        <img class="our-story1-img" src="src/zz.jpg">
+
+        <img class="our-story1-img" src="src/2.jpg">
         <div class="our-story">
-            <h1>이날을 위해 헬스 매일 가서 무게쳤다!</h1>
+            <h1>주니는 자신감</h1>
             <p>
-                성균이 집안일 당첨 !! >.<<br>
+                이표정이 사라지는날 안서방은 거기좀서방<br>
             </p>
         </div>
-        <img class="our-story2-img" src="src/3.jpg">
+        <img class="our-story2-img" src="src/7.jpg">
         <div class="our-story">
-            <h1>키차이가 별로 안나네요.. 비밀은?</h1>
+            <h1>성균이의 시선</h1>
             <p>
-                주은이 발 밑에 있지요 >.<<br>
+                앉으나서나 자나깨나 주니바라보기<br>
             </p>
         </div>
         <img class="our-story3-img" src="src/4.jpg">
         <div class="our-story">
-            <h1>누구의 콧대가 더 높을까요?</h1>
+            <h1>두 사람의 시선</h1>
             <p>
-                정답은..<br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                무효니!!
+                그래, 둘만 서로 보는 것이 아니라<br>
+                같은 곳을 바라보는 것이 결혼이라 하였다<br>
             </p>
         </div>
-
+        <img class="our-story4-img" src="src/123z.jpg">
+        <div class="our-story">
+            <h1>부부싸움을 하면요..</h1>
+            <p>
+                용용체 쓰기로 했지용<br>
+                내가 잘못했어용 하기<br>
+            </p>
+        </div>
     </div>
     
 </body>

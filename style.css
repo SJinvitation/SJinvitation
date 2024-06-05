@@ -88,6 +88,7 @@ header {
 .body-top {
     position: relative;
     padding-top: 66%;
+    top: 50px;
     margin-bottom: 50px;
 }
 .body-top img {
@@ -100,11 +101,12 @@ header {
     height: auto;
 }
 .date {
-    position: absolute;
-    bottom: -25px;
+    position: relative;
+    /* top: 100px; */
+    /* bottom: -390px; */
     margin: 0 auto;
     width: 100%;
-    height: 80px;
+    /* height: 450px; */
     color: #fff;
     text-align: center;
 }
@@ -113,8 +115,9 @@ header {
 
     font-family: 'KoPub Batang';
     font-size: 1.2rem;
-    color: #fff;
+    color: black;
     font-weight: bold;
+    margin-bottom: 100px;
 }
 .body-middle {
     /* background-color: pink; */
