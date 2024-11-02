@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.691da36c.css",
+    "main.js": "/static/js/main.daecdf61.js",
+    "static/media/MaruBuri.ttf": "/static/media/MaruBuri.5a21263786cb0e2d0481.ttf",
+    "static/media/NanumGothic.ttf": "/static/media/NanumGothic.46c03af3832f3527bd51.ttf",
+    "static/media/NanumSquareRoundB.ttf": "/static/media/NanumSquareRoundB.8ab117fc37409bd022e5.ttf",
+    "static/media/Parisienne.ttf": "/static/media/Parisienne.82a775783a33ce6f911d.ttf",
+    "static/media/kakaotalk.png": "/static/media/kakaotalk.9d8c77db3ec1788580ce.png",
+    "static/media/KakaoPay.jpg": "/static/media/KakaoPay.1cc1e46485be60fe0bc5.jpg",
+    "static/media/copy.svg": "/static/media/copy.f4937c4f6e3fa2f6b76cbfcc34d9aa8f.svg",
+    "static/media/pause.svg": "/static/media/pause.746606feefb69000a5b098bcff10940a.svg",
+    "static/media/heart.svg": "/static/media/heart.7ac6880467c956636a893d9b99c8c5bc.svg",
+    "static/media/up.svg": "/static/media/up.8ced9ca9b5ed6247181420fd36f26e4b.svg",
+    "static/media/down.svg": "/static/media/down.5d592df8068fd4c3c653bc7bc42ddf50.svg",
+    "static/media/play.svg": "/static/media/play.24f778f022ff11f92842c205ed34e56a.svg",
+    "index.html": "/index.html",
+    "main.691da36c.css.map": "/static/css/main.691da36c.css.map",
+    "main.daecdf61.js.map": "/static/js/main.daecdf61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.691da36c.css",
+    "static/js/main.daecdf61.js"
+  ]
+}
